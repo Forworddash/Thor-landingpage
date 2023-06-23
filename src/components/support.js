@@ -2,7 +2,7 @@ import React from 'react';
 import '../tailwind.css';
 
 
-const Story = ({ imageUrl, text, title }) => {
+const Support = ({ imageUrl, text, title }) => {
   return (
     <div className='flex flex-row justify-center my-12'>
       <div className='basis-1/4'>
@@ -16,4 +16,4 @@ const Story = ({ imageUrl, text, title }) => {
   );
 };
 
-export default Story;
+export default Support;
