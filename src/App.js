@@ -9,7 +9,7 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App text-white bg-gradient-to-r from-darkBlue to-darkRed"> {/* bg-gradient-to-r from-lavender to-mindaro cool-background */}
-      <div className="container mx-auto">
+      <div className="container mx-auto px-12">
         <div className="py-24">
           <Story
             imageUrl={'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?w=1380&t=st=1687539353~exp=1687539953~hmac=bdfdfdda897fefc0619df601b60c9fd1406fccc6810b82da2d7fa03e04a83903'}
