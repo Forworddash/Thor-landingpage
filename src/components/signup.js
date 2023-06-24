@@ -4,7 +4,7 @@ import '../tailwind.css';
 const Signup = ({ text, title }) => {
     return (
         <div className='flex flex-row justify-center'>
-            <div className='basis-1/2'>
+            <div className='basis-full'>
                 <h1 className='font-heading text-2xl font-bold'>{title}</h1>
                 <p>{text}</p>
                 <form className='mt-4 py-12'>
