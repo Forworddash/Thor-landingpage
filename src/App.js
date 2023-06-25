@@ -5,11 +5,19 @@ import Story from './components/story';
 import Signup from './components/signup';
 import Support from './components/support';
 import Footer from './components/footer';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <div className="App text-white bg-gradient-to-r from-darkBlue to-darkRed"> {/* bg-gradient-to-r from-lavender to-mindaro cool-background */}
       <div className="container mx-auto px-12 space-y-24">
+        
+        <div className=''>
+          <Navbar></Navbar>
+        </div>
+        
+        
+        
         <div className="">
           <Story
             imageUrl={'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?w=1380&t=st=1687539353~exp=1687539953~hmac=bdfdfdda897fefc0619df601b60c9fd1406fccc6810b82da2d7fa03e04a83903'}
