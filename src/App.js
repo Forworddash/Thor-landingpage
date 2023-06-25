@@ -9,8 +9,8 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App text-white bg-gradient-to-r from-darkBlue to-darkRed"> {/* bg-gradient-to-r from-lavender to-mindaro cool-background */}
-      <div className="container mx-auto px-12">
-        <div className="py-24">
+      <div className="container mx-auto px-12 space-y-24">
+        <div className="">
           <Story
             imageUrl={'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?w=1380&t=st=1687539353~exp=1687539953~hmac=bdfdfdda897fefc0619df601b60c9fd1406fccc6810b82da2d7fa03e04a83903'}
             title={'Our Story'}
@@ -18,14 +18,14 @@ function App() {
           />
         </div>
 
-        <div className="py-24">
+        <div className="">
           <Signup
             title={'Join us at our event!'}
             text={"On July 13th, Thursday at 102 main st. Join us at the launch of our new company as we set up our first display. Come and enjoy some tasty Biltong! We'll notify you on the day."}
           />
         </div>
 
-        <div className="py-24">
+        <div className="">
           <Support
             title={'Reserve some Biltong!'}
             text={'You can buy your Biltong here to reserve your sweeeeet and juiiiicy snacks!'}

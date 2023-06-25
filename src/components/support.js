@@ -8,14 +8,12 @@ const Support = ({ text, title }) => {
       <p>{text}</p>
       <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
         {/* product picture */}
-        <div className="lg:basis-1/3 basis-full mx-12">
-          <div className="">
-            <img
-              className="rounded-lg drop-shadow-lg"
-              src="https://www.meat-online.co.za/wp-content/uploads/2016/07/0444-BEEF-BILTONG-500g-e1471957916456.jpg"
-              alt="Product"
-            />
-          </div>
+        <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
+          <img
+            className="rounded-lg drop-shadow-lg"
+            src="https://www.meat-online.co.za/wp-content/uploads/2016/07/0444-BEEF-BILTONG-500g-e1471957916456.jpg"
+            alt="Product"
+          />
         </div>
         {/* selection && buy button */}
         <div className="lg:basis-1/3">
