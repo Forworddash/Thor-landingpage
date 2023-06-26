@@ -11,7 +11,61 @@ const Support = ({ text, title }) => {
         <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
           <img
             className="rounded-lg drop-shadow-lg"
-            src="https://www.meat-online.co.za/wp-content/uploads/2016/07/0444-BEEF-BILTONG-500g-e1471957916456.jpg"
+            src="https://images-na.ssl-images-amazon.com/images/I/81VaDF99dnL._SL1500_.jpg"
+            alt="Product"
+          />
+        </div>
+        {/* selection && buy button */}
+        <div className="lg:basis-1/3">
+          <div className="flex items-center mt-4 space-x-4 justify-center text-black">
+            <div className="order-2">
+              <select className="ml-4">
+                <option value="1">1 Pack</option>
+                <option value="2">2 Pack</option>
+                <option value="3">3 Pack</option>
+              </select>
+            </div>
+            <div className="drop-shadow-lg order-3">
+              <button className="bg-darkPink text-white rounded px-4 py-2">
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
+        {/* product picture */}
+        <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
+          <img
+            className="rounded-lg drop-shadow-lg"
+            src="https://i5.walmartimages.com/asr/edc8c9a5-9d42-4c81-b80f-a90e1cc57ed7_1.7e2812f9592cfd1449a2d44376fc6ea5.jpeg"
+            alt="Product"
+          />
+        </div>
+        {/* selection && buy button */}
+        <div className="lg:basis-1/3">
+          <div className="flex items-center mt-4 space-x-4 justify-center text-black">
+            <div className="order-2">
+              <select className="ml-4">
+                <option value="1">1 Pack</option>
+                <option value="2">2 Pack</option>
+                <option value="3">3 Pack</option>
+              </select>
+            </div>
+            <div className="drop-shadow-lg order-3">
+              <button className="bg-darkPink text-white rounded px-4 py-2">
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
+        {/* product picture */}
+        <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
+          <img
+            className="rounded-lg drop-shadow-lg"
+            src="https://smallysbiltong.com/wp-content/uploads/2020/12/original-large-lean-1024x1024.jpg"
             alt="Product"
           />
         </div>
