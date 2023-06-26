@@ -15,20 +15,20 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 top-1/3">
+    <div className="fixed left-0 top-1/3 hidden lg:block xl:block">
       <nav>
-        <ul className="space-y-12 relative border-r-2 border-gray-500 pr-4">
-          <li>
+        <ul className="space-y-12 relative mx-4 text-2xl text-white font-bold border-r-2 border-white pr-4">
+          <li className="hover:opacity-50">
             <a href='#story' onClick={(e) => handleSmoothScroll(e, 'story')}>
               Story
             </a>
           </li>
-          <li>
+          <li className="hover:opacity-50">
             <a href='#signup' onClick={(e) => handleSmoothScroll(e, 'signup')}>
               Signup
             </a>
           </li>
-          <li>
+          <li className="hover:opacity-50">
             <a href='#support' onClick={(e) => handleSmoothScroll(e, 'support')}>
               Support
             </a>
