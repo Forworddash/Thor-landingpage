@@ -9,7 +9,7 @@ import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="App text-white bg-gradient-to-r from-darkBlue to-darkRed"> {/* bg-gradient-to-r from-lavender to-mindaro cool-background */}
+    <div className="App text-white bg-gradient-to-r from-colorThree to-colorFour"> {/* bg-gradient-to-r from-lavender to-mindaro cool-background */}
       <div className=''>
           <Navbar></Navbar>
       </div>

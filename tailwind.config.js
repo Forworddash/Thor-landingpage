@@ -15,6 +15,12 @@ module.exports = {
         darkPink: '#C06C84',
         darkOrange: '#F67280',
         tan: '#F8B195',
+        colorOne: '#120000', // dark bg
+        colorTwo: '#b51438',
+        colorThree: '#d52138',
+        colorFour: '#e57418',
+        colorFive: '#f68c18',
+
       },
       fontFamily: {
         heading: ['Arial', 'sans-serif'],
