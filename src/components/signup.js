@@ -3,12 +3,12 @@ import '../tailwind.css';
 
 const Signup = ({ text, title }) => {
     return (
-        <div className='flex flex-row justify-center' id='signup'>
-            <div className='basis-full'>
+        <div className='flex lg:flex-row justify-center h-screen' id='signup'>
+            <div className='basis-full m-auto'>
                 <h1 className='font-heading text-2xl font-bold'>{title}</h1>
                 <p>{text}</p>
-                <form className='mt-4 py-12'>
-                    <div className='mb-4'>
+                <form className='space-y-6 mt-12'>
+                    <div className=''>
                         <label className='block' htmlFor='name'>
                             Your Name<span className='text-red-500'>*</span>
                         </label>
@@ -20,7 +20,7 @@ const Signup = ({ text, title }) => {
                             required
                         />
                     </div>
-                    <div className='mb-4'>
+                    <div className=''>
                         <label className='block' htmlFor='email'>
                             Your Email<span className='text-red-500'>*</span>
                         </label>
@@ -32,7 +32,7 @@ const Signup = ({ text, title }) => {
                             required
                         />
                     </div>
-                    <div className='mb-4'>
+                    <div className=''>
                         <label className='block' htmlFor='phone'>
                             Your Phone Number
                         </label>

@@ -3,7 +3,7 @@ import "../tailwind.css";
 
 const Support = ({ text, title }) => {
   return (
-    <div className="flex flex-col justify-center support" id='support'>
+    <div className="flex flex-col justify-center h-screen" id='support'>
       <h1 className="font-heading text-2xl font-bold">{title}</h1>
       <p>{text}</p>
       <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
