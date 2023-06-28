@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className="container mx-auto px-12 space-y-12">
         
-        <div className="">
+        <div className="flex items-center justify-center h-screen ">
           <Story
             imageUrl={Logo}
             title={'Our Story'}
@@ -24,14 +24,14 @@ function App() {
           />
         </div>
 
-        <div className="">
+        <div className="flex items-center justify-center h-screen ">
           <Signup
             title={'Join us at our event!'}
             text={"On July 13th, Thursday at 102 main st. Join us at the launch of our new company as we set up our first display. Come and enjoy some tasty Biltong! We'll notify you on the day."}
           />
         </div>
 
-        <div className="">
+        <div className="flex items-center justify-center h-screen">
           <Support
             title={'Reserve some Biltong!'}
             text={'You can buy your Biltong here to reserve your sweeeeet and juiiiicy snacks!'}
