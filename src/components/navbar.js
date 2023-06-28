@@ -15,9 +15,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 top-1/3 hidden lg:block xl:block">
+    <div className="fixed w-full bg-black opacity-75 z-10 py-8">
       <nav>
-        <ul className="space-y-12 relative mx-4 text-2xl text-white font-bold border-r-2 border-white pr-4">
+        <ul className="flex justify-evenly text-2xl text-white font-bold">
           <li className="hover:opacity-50">
             <a href='#story' onClick={(e) => handleSmoothScroll(e, 'story')}>
               Story
