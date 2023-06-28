@@ -2,6 +2,7 @@ import React from 'react';
 import '../tailwind.css';
 
 
+
 const Story = ({ imageUrl, text, title }) => {
   return (
     <div className='flex lg:flex-row justify-center md:flex-col flex-col h-screen story' id='story'>
