@@ -6,6 +6,7 @@ import Signup from './components/signup';
 import Support from './components/support';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
+import Logo from './images/logo.jpg';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         
         <div className="">
           <Story
-            imageUrl={'https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?w=1380&t=st=1687539353~exp=1687539953~hmac=bdfdfdda897fefc0619df601b60c9fd1406fccc6810b82da2d7fa03e04a83903'}
+            imageUrl={Logo}
             title={'Our Story'}
             text={'Savanna Biltong was started in 2022 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Sit amet justo donec enim diam. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Dignissim suspendisse in est ante in nibh mauris. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Dolor purus non enim praesent elementum facilisis leo. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Neque egestas congue quisque egestas diam. Pharetra convallis posuere morbi leo urna molestie at elementum eu.'}
           />
