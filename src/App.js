@@ -5,18 +5,19 @@ import Story from './components/story';
 import Signup from './components/signup';
 import Support from './components/support';
 import Footer from './components/footer';
-import Navbar from './components/navbar';
+// import Navbar from './components/navbar';
 import Logo from './images/logo.jpg';
+import NavbarTop from './components/navbar';
 
 function App() {
   return (
     <div className="App text-white bg-gradient-to-r from-colorThree to-colorFour"> {/* bg-gradient-to-r from-lavender to-mindaro cool-background */}
       <div className=''>
-          <Navbar></Navbar>
+          <NavbarTop></NavbarTop>
       </div>
       <div className="container mx-auto px-12 space-y-12">
         
-        <div className="flex items-center justify-center h-screen ">
+        <div className="">
           <Story
             imageUrl={Logo}
             title={'Our Story'}
@@ -24,14 +25,14 @@ function App() {
           />
         </div>
 
-        <div className="flex items-center justify-center h-screen ">
+        <div className="">
           <Signup
             title={'Join us at our event!'}
             text={"On July 13th, Thursday at 102 main st. Join us at the launch of our new company as we set up our first display. Come and enjoy some tasty Biltong! We'll notify you on the day."}
           />
         </div>
 
-        <div className="flex items-center justify-center h-screen">
+        <div className="">
           <Support
             title={'Reserve some Biltong!'}
             text={'You can buy your Biltong here to reserve your sweeeeet and juiiiicy snacks!'}
