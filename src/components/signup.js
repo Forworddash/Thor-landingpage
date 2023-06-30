@@ -3,7 +3,7 @@ import '../tailwind.css';
 
 const Signup = ({ text, title }) => {
     return (
-        <div className='flex lg:flex-row justify-center h-screen' id='signup'>
+        <div className='flex lg:flex-row justify-center' id='signup'>
             <div className='basis-full m-auto'>
                 <h1 className='font-heading text-2xl font-bold'>{title}</h1>
                 <p>{text}</p>
