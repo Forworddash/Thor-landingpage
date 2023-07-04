@@ -5,7 +5,6 @@ import Story from './components/story';
 import Signup from './components/signup';
 import Support from './components/support';
 import Footer from './components/footer';
-// import Navbar from './components/navbar';
 import Logo from './images/logo.jpg';
 import NavbarTop from './components/navbar';
 
@@ -15,9 +14,9 @@ function App() {
       <div className=''>
           <NavbarTop></NavbarTop>
       </div>
-      <div className="container mx-auto px-12 space-y-12">
+      <div className="container mx-auto px-12">
         
-        <div className="">
+        <div className="py-36">
           <Story
             imageUrl={Logo}
             title={'Our Story'}
