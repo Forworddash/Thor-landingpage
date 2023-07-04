@@ -22,16 +22,16 @@ const Support = ({ text, title }) => {
           <div className="lg:basis-1/3">
             <div className="flex items-center mt-4 space-x-4 justify-center text-black">
               <div className="order-2">
-                <select className="ml-4">
+                <div className="drop-shadow-lg order-3">
+                  <button className="bg-darkPink text-white rounded px-4 py-2">
+                    Buy Now
+                  </button>
+                </div>
+                <select className="my-4">
                   <option value="1">1 Pack</option>
                   <option value="2">2 Pack</option>
                   <option value="3">3 Pack</option>
                 </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
               </div>
             </div>
           </div>
@@ -51,16 +51,16 @@ const Support = ({ text, title }) => {
           <div className="lg:basis-1/3">
             <div className="flex items-center mt-4 space-x-4 justify-center text-black">
               <div className="order-2">
-                <select className="ml-4">
+                <div className="drop-shadow-lg order-3">
+                  <button className="bg-darkPink text-white rounded px-4 py-2">
+                    Buy Now
+                  </button>
+                </div>
+                <select className="my-4">
                   <option value="1">1 Pack</option>
                   <option value="2">2 Pack</option>
                   <option value="3">3 Pack</option>
                 </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
               </div>
             </div>
           </div>
@@ -80,16 +80,16 @@ const Support = ({ text, title }) => {
           <div className="lg:basis-1/3">
             <div className="flex items-center mt-4 space-x-4 justify-center text-black">
               <div className="order-2">
-                <select className="ml-4">
+                <div className="drop-shadow-lg order-3">
+                  <button className="bg-darkPink text-white rounded px-4 py-2">
+                    Buy Now
+                  </button>
+                </div>
+                <select className="my-4">
                   <option value="1">1 Pack</option>
                   <option value="2">2 Pack</option>
                   <option value="3">3 Pack</option>
                 </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
               </div>
             </div>
           </div>
@@ -109,16 +109,16 @@ const Support = ({ text, title }) => {
           <div className="lg:basis-1/3">
             <div className="flex items-center mt-4 space-x-4 justify-center text-black">
               <div className="order-2">
-                <select className="ml-4">
+                <div className="drop-shadow-lg order-3">
+                  <button className="bg-darkPink text-white rounded px-4 py-2">
+                    Buy Now
+                  </button>
+                </div>
+                <select className="my-4">
                   <option value="1">1 Pack</option>
                   <option value="2">2 Pack</option>
                   <option value="3">3 Pack</option>
                 </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
               </div>
             </div>
           </div>
