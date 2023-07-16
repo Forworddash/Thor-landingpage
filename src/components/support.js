@@ -66,7 +66,6 @@ const Support = ({ text, title }) => {
           {/* </div> */}
         </div>
 
-
         {/* Product 3 */}
         <div className="flex items-center lg:flex-col mx-auto justify-center my-12 flex-col space-y-4">
           {/* product picture */}
