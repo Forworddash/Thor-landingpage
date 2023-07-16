@@ -3,13 +3,13 @@ import "../tailwind.css";
 
 const Support = ({ text, title }) => {
   return (
-    <div className="flex flex-col justify-center" id='support'>
+    <div className="flex flex-col justify-center" id="support">
       <h1 className="font-heading text-2xl font-bold">{title}</h1>
       <p>{text}</p>
       {/* Product Section*/}
       <div className="grid xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2">
         {/* Product 1 */}
-        <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
+        <div className="flex items-center lg:flex-col mx-auto justify-center my-12 flex-col space-y-4">
           {/* product picture */}
           <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
             <img
@@ -19,26 +19,26 @@ const Support = ({ text, title }) => {
             />
           </div>
           {/* selection && buy button */}
-          <div className="lg:basis-1/3">
-            <div className="flex items-center mt-4 space-x-4 justify-center text-black">
-              <div className="order-2">
-                <select className="ml-4">
-                  <option value="1">1 Pack</option>
-                  <option value="2">2 Pack</option>
-                  <option value="3">3 Pack</option>
-                </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
-              </div>
-            </div>
+          {/* <div className="lg:basis-1/3"> */}
+          {/* <div className="flex items-center mt-4 space-x-4 justify-center text-black"> */}
+          <div className="order-2 flex items-center mt-4 space-x-4 justify-center text-black">
+            <select className="ml-4">
+              <option value="1">1 Pack</option>
+              <option value="2">2 Pack</option>
+              <option value="3">3 Pack</option>
+            </select>
           </div>
+          <div className="drop-shadow-lg order-3">
+            <button className="bg-darkPink text-white rounded px-4 py-2">
+              Add to Cart
+            </button>
+          </div>
+          {/* </div> */}
+          {/* </div> */}
         </div>
 
         {/* Product 2 */}
-        <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
+        <div className="flex items-center lg:flex-col mx-auto justify-center my-12 flex-col space-y-4">
           {/* product picture */}
           <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
             <img
@@ -48,26 +48,26 @@ const Support = ({ text, title }) => {
             />
           </div>
           {/* selection && buy button */}
-          <div className="lg:basis-1/3">
-            <div className="flex items-center mt-4 space-x-4 justify-center text-black">
-              <div className="order-2">
-                <select className="ml-4">
-                  <option value="1">1 Pack</option>
-                  <option value="2">2 Pack</option>
-                  <option value="3">3 Pack</option>
-                </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
-              </div>
+          {/* <div className="lg:basis-1/3"> */}
+          {/* <div className="flex items-center mt-4 space-x-4 justify-center text-black"> */}
+            <div className="order-2 flex items-center mt-4 space-x-4 justify-center text-black">
+              <select className="ml-4">
+                <option value="1">1 Pack</option>
+                <option value="2">2 Pack</option>
+                <option value="3">3 Pack</option>
+              </select>
             </div>
-          </div>
+            <div className="drop-shadow-lg order-3">
+              <button className="bg-darkPink text-white rounded px-4 py-2">
+              Add to Cart
+              </button>
+            </div>
+          {/* </div> */}
+          {/* </div> */}
         </div>
 
         {/* Product 3 */}
-        <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
+        <div className="flex items-center lg:flex-col mx-auto justify-center my-12 flex-col space-y-4">
           {/* product picture */}
           <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
             <img
@@ -77,26 +77,26 @@ const Support = ({ text, title }) => {
             />
           </div>
           {/* selection && buy button */}
-          <div className="lg:basis-1/3">
-            <div className="flex items-center mt-4 space-x-4 justify-center text-black">
-              <div className="order-2">
-                <select className="ml-4">
-                  <option value="1">1 Pack</option>
-                  <option value="2">2 Pack</option>
-                  <option value="3">3 Pack</option>
-                </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
-              </div>
+          {/* <div className="lg:basis-1/3"> */}
+          {/* <div className="flex items-center mt-4 space-x-4 justify-center text-black"> */}
+            <div className="order-2 flex items-center mt-4 space-x-4 justify-center text-black">
+              <select className="ml-4">
+                <option value="1">1 Pack</option>
+                <option value="2">2 Pack</option>
+                <option value="3">3 Pack</option>
+              </select>
             </div>
-          </div>
+            <div className="drop-shadow-lg order-3">
+              <button className="bg-darkPink text-white rounded px-4 py-2">
+              Add to Cart
+              </button>
+            </div>
+          {/* </div> */}
+          {/* </div> */}
         </div>
 
         {/* Product 4 */}
-        <div className="flex items-center lg:flex-row mx-auto justify-center my-12 flex-col">
+        <div className="flex items-center lg:flex-col mx-auto justify-center my-12 flex-col space-y-4">
           {/* product picture */}
           <div className="md:basis-1/3 basis-full md:mx-12 mx-0">
             <img
@@ -106,22 +106,22 @@ const Support = ({ text, title }) => {
             />
           </div>
           {/* selection && buy button */}
-          <div className="lg:basis-1/3">
-            <div className="flex items-center mt-4 space-x-4 justify-center text-black">
-              <div className="order-2">
-                <select className="ml-4">
-                  <option value="1">1 Pack</option>
-                  <option value="2">2 Pack</option>
-                  <option value="3">3 Pack</option>
-                </select>
-              </div>
-              <div className="drop-shadow-lg order-3">
-                <button className="bg-darkPink text-white rounded px-4 py-2">
-                  Buy Now
-                </button>
-              </div>
+          {/* <div className="lg:basis-1/3"> */}
+          {/* <div className="flex items-center mt-4 space-x-4 justify-center text-black"> */}
+            <div className="order-2 flex items-center mt-4 space-x-4 justify-center text-black">
+              <select className="ml-4">
+                <option value="1">1 Pack</option>
+                <option value="2">2 Pack</option>
+                <option value="3">3 Pack</option>
+              </select>
             </div>
-          </div>
+            <div className="drop-shadow-lg order-3">
+              <button className="bg-darkPink text-white rounded px-4 py-2">
+              Add to Cart
+              </button>
+            </div>
+          {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
     </div>

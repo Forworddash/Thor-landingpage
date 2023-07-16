@@ -14,7 +14,7 @@ function App() {
       <div className=''>
           <NavbarTop></NavbarTop>
       </div>
-      <div className="container mx-auto px-12">
+      {/* <div className="container mx-auto px-12"> */}
         
         <div className="py-36">
           <Story
@@ -24,14 +24,14 @@ function App() {
           />
         </div>
 
-        <div className="">
+        <div className="py-24">
           <Signup
             title={'Join us at our event!'}
             text={"On July 13th, Thursday at 102 main st. Join us at the launch of our new company as we set up our first display. Come and enjoy some tasty Biltong! We'll notify you on the day."}
           />
         </div>
 
-        <div className="">
+        <div className="py-24">
           <Support
             title={'Reserve some Biltong!'}
             text={'You can buy your Biltong here to reserve your sweeeeet and juiiiicy snacks!'}
@@ -41,7 +41,7 @@ function App() {
           <Footer></Footer>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 
