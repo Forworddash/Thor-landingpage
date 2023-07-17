@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thor-landingpage/static/css/main.e2e2a9e0.css",
+    "main.js": "/thor-landingpage/static/js/main.6808eec1.js",
+    "static/js/787.7b047686.chunk.js": "/thor-landingpage/static/js/787.7b047686.chunk.js",
+    "static/media/logo.jpg": "/thor-landingpage/static/media/logo.ebad1d8d63388f90dc30.jpg",
+    "index.html": "/thor-landingpage/index.html",
+    "main.e2e2a9e0.css.map": "/thor-landingpage/static/css/main.e2e2a9e0.css.map",
+    "main.6808eec1.js.map": "/thor-landingpage/static/js/main.6808eec1.js.map",
+    "787.7b047686.chunk.js.map": "/thor-landingpage/static/js/787.7b047686.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2e2a9e0.css",
+    "static/js/main.6808eec1.js"
+  ]
+}
